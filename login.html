@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="login.css" />
+  </head>
+
+  <body>
+    <!-- Navbar -->
+    <header class="navbar">
+      <div class="logo-web"><a href="">✈️Travel GO</a></div>
+      <input type="checkbox" id="toggle-menu" />
+      <label for="toggle-menu" class="hamburger">&#9776;</label>
+      <nav class="nav-menu">
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+        <a href="#">Help</a>
+      </nav>
+    </header>
+
+    <!-- login form -->
+    <main>
+      <form class="form-login">
+        <h2>Login</h2>
+        <label for="username">Username</label>
+        <input
+          type="text"
+          id="username"
+          placeholder="Enter your username"
+          required
+        />
+
+        <label for="email">Email</label>
+        <input
+          type="text"
+          id="email"
+          placeholder="Enter your email address"
+          required
+        />
+
+        <label for="password">Password</label>
+        <input
+          type="password"
+          id="password"
+          placeholder="Enter your password"
+          required
+        />
+
+        <div class="checklist">
+          <input type="checkbox" required />
+          <label for="agreement">Do you agree with the terms we provide</label>
+        </div>
+        
+        <button type="submit"><a href="">Login</a></button>
+      </form>
+    </main>
+  </body>
+</html>

@@ -1,0 +1,110 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(82, 197, 255);
+  padding: 15px 10px;
+  border-bottom: 1px solid #9e9e9e;
+  border-radius: 0px 0px 15px 15px;
+}
+
+.logo-web a {
+  font-size: 30px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.hamburger {
+    font-size: 24px;
+    cursor: pointer;
+    display: none;
+}
+
+#toggle-menu {
+    display: none;
+}
+
+.nav-menu a {
+  color: black;
+  text-decoration: none;
+  font-weight: 600;
+  margin: 3px;
+  padding: 10px 13px;
+  border-radius: 10px;
+  transition: 0.8s;
+}
+
+.nav-menu a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+main {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+}
+
+.form-login {
+    display: flex;
+    flex-direction: column;
+    min-width: 480px;
+    max-width: 500px;
+    margin: auto;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.form-login h2 {
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.form-login label {
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #444;
+}
+
+.form-login input {
+    margin-bottom: 15px;
+    margin-right: 8px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+div .checklist {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.form-login button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    background-color: #cfcfcf;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.4s;
+}
+
+.form-login button a {
+    color: black;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+.form-login button:hover {
+    background-color: #ff9a02;
+}
